@@ -1,0 +1,119 @@
+#root {
+  width: 100vw;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: white;
+  color: black;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 10vh;
+}
+
+.filters {
+  background-color: white;
+  border: 1px solid darkblue;
+  min-width: 376px;
+  min-height: 154px;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+
+.dialog {
+  background-color: rgb(255, 251, 251);
+  color: black;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 4px 4px 4px darkgray;
+}
+
+.button {
+  background-color: darkblue;
+  margin: 8px;
+  border: none;
+  border-radius: 4px;
+  padding: 4px 10px;
+}
+
+.filters-list {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  min-height: 48px;
+}
+
+.table-head {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  margin: 0;
+  padding: 10px;
+  background-color: white;
+}
+
+.history {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid grey;
+}
+
+.filters-container {
+  min-width: 376px;
+}
+
+.loading {
+  margin-top: 10vh;
+}
+
+.table {
+  margin-top: 28vh;
+}
+
+/* .table-body {
+  margin-top: 24px;
+} */
+
+.table-row {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+
+.table-cell {
+  border-right: 1px solid black;
+  width: 18vh;
+  cursor: pointer;
+}
+
+.table-header-cell {
+  background-color: darkblue;
+  color: white;
+  border-right: 1px solid black;
+  width: 18vh;
+}
+
+.bytes {
+  cursor: default;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
