@@ -16,6 +16,7 @@ const History:FunctionComponent<HistoryType> = ({searchString}) => {
     const createHistory = (searchString:string) => {
     const searchParams = new URLSearchParams(searchString)
 
+    //TODO: evaluate the use-query-params library to refactor following code block
     // if there are no searchParams, then we simply return out of this function
     if (searchParams.size === 0) {
         return
