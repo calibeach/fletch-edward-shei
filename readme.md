@@ -31,3 +31,4 @@ Unfortunately, my 1.5 year old daughter caught hand, foot and mouth disease this
    2b. Run npm run dev
 3. In Terminal 2
    3a. Run npm run server
+4.  Open up your web browser and navigate to localhost: 5173
